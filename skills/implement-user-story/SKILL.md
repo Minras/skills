@@ -1,5 +1,5 @@
 ---
-name: implement-user-stories
+name: implement-user-story
 description: Implement repository user stories from clear acceptance criteria, pausing for clarification when requirements are ambiguous and completing an independent Codex review loop.
 ---
 

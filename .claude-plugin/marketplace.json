@@ -1,0 +1,15 @@
+{
+  "name": "minras-skills",
+  "description": "Reusable AI agent skills for software development and agentic workflows.",
+  "owner": {
+    "name": "Minras"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "source": "./",
+      "description": "Reusable AI agent skills for software development and agentic workflows.",
+      "version": "0.0.1"
+    }
+  ]
+}
