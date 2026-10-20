@@ -23,7 +23,7 @@ Implement the agreed story in the current repository. Follow its local conventio
 
 After implementation, spawn a separate Codex reviewer agent/thread with access to the current project and working tree. The user explicitly authorized this reviewer through the skill's requested workflow. Give the reviewer the story, acceptance criteria, and current diff. Ask for a read-only code review that reports actionable findings with severity, file, and line, and does not edit files.
 
-Use model GPT-6 Luna at Extra High reasoning effort when the reviewer tool supports that combination. If the tool does not support Extra High for Luna, use Luna's highest supported effort and state the substitution in the final report.
+Use the same model as the initial thread for the reviewer.
 
 For each review pass:
 
