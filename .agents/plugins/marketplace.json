@@ -1,7 +1,7 @@
 {
-  "name": "minras-skills",
+  "name": "minras",
   "interface": {
-    "displayName": "Agent Skills"
+    "displayName": "Minras Skills"
   },
   "plugins": [
     {

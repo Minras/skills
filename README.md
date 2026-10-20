@@ -20,7 +20,7 @@ Add the marketplace:
 codex plugin marketplace add minras/skills
 ```
 
-In Codex, open `/plugins`, choose the `Agent Skills` marketplace, and install `agent-skills`. Invoke the `implement-user-story` skill when working on a user story. See the [Codex plugin documentation](https://developers.openai.com/plugins/build/plugins).
+In Codex, open `/plugins`, choose the `Minras Skills` marketplace, and install `agent-skills`. Invoke the `implement-user-story` skill when working on a user story. See the [Codex plugin documentation](https://developers.openai.com/plugins/build/plugins).
 
 ### Claude Code
 
@@ -28,7 +28,7 @@ Add the marketplace and install the plugin:
 
 ```sh
 claude plugin marketplace add minras/skills
-claude plugin install agent-skills@minras-skills
+claude plugin install agent-skills@minras
 ```
 
 Invoke the skill as `/agent-skills:implement-user-story`. See the [Claude Code marketplace documentation](https://code.claude.com/docs/en/plugin-marketplaces).
@@ -39,7 +39,7 @@ Add the marketplace and install the plugin:
 
 ```sh
 copilot plugin marketplace add minras/skills
-copilot plugin install agent-skills@minras-skills
+copilot plugin install agent-skills@minras
 ```
 
 See the [Copilot CLI plugin reference](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference).
@@ -63,7 +63,7 @@ Uninstall `agent-skills` from the platform where you installed it. Remove the ma
 In `/plugins`, open the installed `agent-skills` plugin and choose **Uninstall**. To remove the marketplace source as well, run:
 
 ```sh
-codex plugin marketplace remove minras-skills
+codex plugin marketplace remove minras
 ```
 
 See the [Codex plugin documentation](https://developers.openai.com/plugins/build/plugins).
@@ -73,8 +73,8 @@ See the [Codex plugin documentation](https://developers.openai.com/plugins/build
 Uninstall the plugin, then remove the marketplace if you no longer need it:
 
 ```sh
-claude plugin uninstall agent-skills@minras-skills
-claude plugin marketplace remove minras-skills
+claude plugin uninstall agent-skills@minras
+claude plugin marketplace remove minras
 ```
 
 See the [Claude Code plugin commands](https://code.claude.com/docs/en/plugins/cli-reference).
@@ -85,7 +85,7 @@ Uninstall the plugin, then remove the marketplace if you no longer need it:
 
 ```sh
 copilot plugin uninstall agent-skills
-copilot plugin marketplace remove minras-skills
+copilot plugin marketplace remove minras
 ```
 
 See the [Copilot CLI plugin reference](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference).
