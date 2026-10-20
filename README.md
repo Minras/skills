@@ -54,6 +54,46 @@ git clone https://github.com/minras/skills ~/.cursor/plugins/local/agent-skills
 
 Restart Cursor or run **Developer: Reload Window**, then open **Customize** to find the plugin. Local plugin imports may need to be enabled by a team administrator. Teams and Enterprise administrators can instead import the repository from **Dashboard → Plugins & MCPs → Add Marketplace → Import from Repo**. Public Cursor Marketplace listings require submission and review. See the [Cursor plugin documentation](https://cursor.com/docs/plugins).
 
+## Remove the plugin
+
+Uninstall `agent-skills` from the platform where you installed it. Remove the marketplace registration separately if you no longer want it listed there.
+
+### OpenAI Codex
+
+In `/plugins`, open the installed `agent-skills` plugin and choose **Uninstall**. To remove the marketplace source as well, run:
+
+```sh
+codex plugin marketplace remove minras-skills
+```
+
+See the [Codex plugin documentation](https://developers.openai.com/plugins/build/plugins).
+
+### Claude Code
+
+Uninstall the plugin, then remove the marketplace if you no longer need it:
+
+```sh
+claude plugin uninstall agent-skills@minras-skills
+claude plugin marketplace remove minras-skills
+```
+
+See the [Claude Code plugin commands](https://code.claude.com/docs/en/plugins/cli-reference).
+
+### GitHub Copilot CLI
+
+Uninstall the plugin, then remove the marketplace if you no longer need it:
+
+```sh
+copilot plugin uninstall agent-skills
+copilot plugin marketplace remove minras-skills
+```
+
+See the [Copilot CLI plugin reference](https://docs.github.com/en/copilot/reference/copilot-cli-reference/cli-plugin-reference).
+
+### Cursor
+
+For a local installation, delete `~/.cursor/plugins/local/agent-skills` and reload Cursor. For a marketplace installation, uninstall the plugin from **Customize** if the marketplace's installation policy allows it. See the [Cursor plugin documentation](https://cursor.com/docs/plugins).
+
 ## Version
 
 `0.0.1`
