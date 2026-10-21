@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "agent-skills",
+  "name": "minras-skills",
   "version": "0.0.1",
   "description": "Reusable AI agent skills for software development and agentic workflows.",
   "author": {
@@ -10,7 +10,7 @@
   "repository": "https://github.com/minras/skills",
   "license": "MIT",
   "keywords": [
-    "agent-skills",
+    "minras-skills",
     "software-development",
     "workflows"
   ]
